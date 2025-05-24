@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Dubai;
+	box-bizing: border-box;
+}
+body {
+	background: black;
+}
+
+.menu {
+	width: 80%;
+	max-width: 460px;
+	background: linear-gradient(136deg, #00feba, #5b548a);
+	color: white;
+	margin: 100px auto 0;
+	border-radius: 20px;
+	padding: 40px 35px;
+	text-align: center;
+}
+.search {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.search input {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	color: #555;
+	padding: 8px 24px;
+	height: 40px;
+	border-radius: 25px;
+	flex: 1;
+	margin-right: 15px;
+	font-size: 16px;
+}
+.search button {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+.search button:hover {
+    background: lightgray;
+}
+.search button img {
+	width: 16px;
+	padding-right: 2px;
+	padding-top: 5px;
+}
+
+.error {
+	text-align: center;
+	margin-left: 10px;
+	font-family: dubai;
+	font-size: 15px;
+	margin-top: 10px;
+	display: none;
+}
+
+
+.climate {
+	display: none;
+}
+.climate img {	
+    width: 50%;
+    padding-bottom: 10px;
+}
+.climate-icon {
+	width: 160px;
+	margin-top: 25px;
+}
+.climate h1 {
+	font-family: Dubai;
+	font-size: 75px;
+	font-weight: 400;
+}
+.climate h2 {
+	font-family: Mongolian Baiti;
+	font-size: 44px;
+	font-weight: 400;
+	margin-top: -10px;
+}
+
+.content {
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin-top: 50px;
+}
+.col {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+.col img { 
+	width: 30px;
+	margin-left: 10px;
+}
+.humidity {
+	font-size: 25px;
+	margin-top: -5px;
+	padding-left: 10px;
+	line-height: 26px;
+}
+	
+.col-1 {
+	display: flex;
+	align-items: center;
+	text-align: right;
+}
+.col-1 img {
+	width: 32px;
+	margin-right: 10px;
+	margin-left: 90px;
+	padding-left: 40px;
+}
+.wind {
+	font-size: 22px;
+	margin-top: -4px;
+	line-height: 28px;
+}
