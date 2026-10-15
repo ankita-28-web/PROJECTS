@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"            content="IE=edge">
+    <meta name="viewport"                         content="width=device-width, initial-scale=1.0">
+    <title> TASK 1: IMAGE GALLERY </title>
+    <link rel="stylesheet"                        href="design.css">
+</head>
+<body>
+    <header>
+        <h1> MY IMAGE GALLERY </h1>
+        <p> Explore beautiful images </p>
+    </header>
+
+    <!------  Filter Buttons  ------>
+    <div class="filters">
+        <button class="filter-btn active"         data-category="all"> All </button>
+        <button class="filter-btn"                data-category="nature"> Nature </button>
+        <button class="filter-btn"                data-category="city"> City </button>
+        <button class="filter-btn"                data-category="animals"> Rabbit </button>
+        <button class="filter-btn"                data-category="interior"> Interiors </button>
+        <button class="filter-btn"                data-category="kitchen"> Kitchen </button>
+    </div>
+
+    <!------  Gallery  ------>
+    <main class="gallery">
+        <div class="gallery-item"                 data-category="nature">
+            <img src="nature-1.jpg"                   alt="Nature">
+        </div>
+
+        <div class="gallery-item"                 data-category="nature">
+            <img src="nature-2.jpg"                   alt="Nature">
+        </div>
+
+        <div class="gallery-item"                 data-category="nature">
+            <img src="nature-3.jpg"                   alt="Nature">
+        </div>
+
+        <div class="gallery-item"                 data-category="city">
+            <img src="city-1.jpg"                     alt="City">
+        </div>
+
+        <div class="gallery-item"                 data-category="city">
+            <img src="city-2.jpg"                     alt="City">
+        </div>
+
+        <div class="gallery-item"                 data-category="city">
+            <img src="city-3.jpg"                     alt="City">
+        </div>
+
+        <div class="gallery-item"                 data-category="animals">
+            <img src="rabbit-1.jpg"                   alt="Animal">
+        </div>
+
+        <div class="gallery-item"                 data-category="animals">
+            <img src="rabbit-2.jpg"                   alt="Animal">
+        </div>
+
+        <div class="gallery-item"                 data-category="animals">
+            <img src="rabbit-3.jpg"                   alt="Animal">
+        </div>
+
+        <div class="gallery-item"                 data-category="interior">
+            <img src="interior-1.jpg"                   alt="Interior-Design">
+        </div>
+
+        <div class="gallery-item"                 data-category="interior">
+            <img src="interior-2.jpg"                   alt="Interior-Design">
+        </div>
+
+        <div class="gallery-item"                 data-category="interior">
+            <img src="interior-3.jpg"                   alt="Interior-Design">
+        </div>
+
+        <div class="gallery-item"                 data-category="kitchen">
+            <img src="kitchen-1.jpg"                   alt="error">
+        </div>
+
+        <div class="gallery-item"                 data-category="kitchen">
+            <img src="kitchen-2.jpg"                   alt="error">
+        </div>
+
+        <div class="gallery-item"                 data-category="kitchen">
+            <img src="kitchen-3.jpg"                   alt="error">
+        </div>
+    </main>
+
+    <!------  Lightbox ------>
+    <div class="lightbox"              id="lightbox">
+       <button class="close"         id="close"> &times; </button>
+       <button class="prev"          id="prev"> &#10094; </button>
+
+       <img id="lightbox-img"        src="" alt="Preview">
+       <button class="next"      id="next"> &#10095; </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
